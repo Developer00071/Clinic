@@ -1,4 +1,5 @@
 using System.Net;
+using System.Reflection.Metadata;
 using Application.Interfaces;
 using Application.Responses;
 using Domain.Interfaces;
@@ -16,6 +17,15 @@ public class DoctorsService(IDoctorsRepository DoctorsRepository) : IDoctorsServ
         ? new ApiResponse<bool>(HttpStatusCode.OK, "Added!", res)
         : new ApiResponse<bool>(HttpStatusCode.InternalServerError, "Not added.", res);
     }
+
+    public async Task<ApiResponse<bool>> DeactivateDoctor(int id)
+    {
+        var res = await repository.DeactivateDoctor(id);
+        return res==true
+        ? new ApiResponse<bool>(HttpStatusCode.OK, "Deactivated!" , res)
+        : new ApiResponse<bool>(HttpStatusCode.InternalServerError, "not Deactivated" , res);
+    }
+
 
     public async Task<ApiResponse<bool>> DeleteDoctor(int id)
     {
@@ -46,5 +56,6 @@ public class DoctorsService(IDoctorsRepository DoctorsRepository) : IDoctorsServ
         ? new ApiResponse<bool>(HttpStatusCode.OK, "Updated!", res)
         : new ApiResponse<bool>(HttpStatusCode.InternalServerError, "Not updated.", res);
     }
+    
 
 }

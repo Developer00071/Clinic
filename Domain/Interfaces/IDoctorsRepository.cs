@@ -9,4 +9,5 @@ public interface IDoctorsRepository
     Task<bool> DeleteDoctor(int id);
     Task<Doctors> GetDoctor(int id);
     Task<List<Doctors>> GetDoctors();
+    Task<bool> DeactivateDoctor(int id);
 }

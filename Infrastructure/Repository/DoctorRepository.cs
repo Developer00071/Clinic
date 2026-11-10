@@ -13,16 +13,23 @@ public class DoctorsRepository(AppDbConection _AppDbConection) : IDoctorsReposit
     public async Task<bool> AddDoctor(Doctors Doctors)
     {
         var connection = _AppDbConection.Connection();
-        var query = "insert into Doctorss(fullname, country, birthyear) values(@fullname, @country, @birthyear)";
+        var query = "insert into Doctors(fullname, country, birthyear) values(@fullname, @country, @birthyear)";
         var res = await connection.ExecuteAsync(query, Doctors);
         return res>0;
     }
 
+    public async Task<bool> DeactivateDoctor(int id)
+    {
+       var connection = _AppDbConection.Connection();
+       var query = "update from doctors set IsActive=false where id = @id";
+       var res = await connection.ExecuteAsync(query , new {id});
+       return res>0;
+    }
 
     public async Task<bool> DeleteDoctor(int id)
     {
         var connection = _AppDbConection.Connection();
-        var query = "delete from Doctorss where id=@id";
+        var query = "delete from Doctors where id=@id";
         var res = await connection.ExecuteAsync(query, new{id});
         return res>0;
     }
@@ -59,4 +66,5 @@ public class DoctorsRepository(AppDbConection _AppDbConection) : IDoctorsReposit
         var res = await connection.ExecuteAsync(query, Doctors);
         return res>0;
     }
+    
 }

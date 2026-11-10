@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {}
+    "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {
+    "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Abdullo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdullo\\AppData\\Roaming\\NuGet\\NuGet.Config"

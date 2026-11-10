@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {
+    "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Abdullo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdullo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1027,14 +1027,14 @@
         }
       }
     },
-    "c:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Abdullo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdullo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1050,8 +1050,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj"
+              "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Application\\Application.csproj"
               },
               "C:\\Users\\Abdullo\\Desktop\\Clinic\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Abdullo\\Desktop\\Clinic\\Domain\\Domain.csproj"

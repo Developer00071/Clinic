@@ -34,6 +34,11 @@ public class DoctorsController(IDoctorsService DoctorService): ControllerBase
     {
         return await service.GetDoctor(id);
     }
+    [HttpPatch("{id:int}")]
+    public async Task<ApiResponse<bool>> DeactivateDoctor(int id)
+    {
+        return await service.DeactivateDoctor(id);
+    }
     
     [HttpGet]
     public async Task<ApiResponse<List<Doctors>>> GetDoctors()
