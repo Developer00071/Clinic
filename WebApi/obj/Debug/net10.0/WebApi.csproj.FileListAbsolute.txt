@@ -42,3 +42,4 @@ c:\Users\Abdullo\Desktop\Clinic\WebApi\obj\Debug\net10.0\refint\WebApi.dll
 c:\Users\Abdullo\Desktop\Clinic\WebApi\obj\Debug\net10.0\WebApi.pdb
 C:\Users\Abdullo\Desktop\Clinic\WebApi\obj\Debug\net10.0\WebApi.genruntimeconfig.cache
 C:\Users\Abdullo\Desktop\Clinic\WebApi\obj\Debug\net10.0\ref\WebApi.dll
+C:\Users\Abdullo\Desktop\Clinic\WebApi\obj\Debug\net10.0\WebApi.sourcelink.json

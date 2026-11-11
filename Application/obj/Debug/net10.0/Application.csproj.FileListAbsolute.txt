@@ -15,3 +15,4 @@ c:\Users\Abdullo\Desktop\Clinic\Application\obj\Debug\net10.0\Application.dll
 c:\Users\Abdullo\Desktop\Clinic\Application\obj\Debug\net10.0\refint\Application.dll
 c:\Users\Abdullo\Desktop\Clinic\Application\obj\Debug\net10.0\Application.pdb
 c:\Users\Abdullo\Desktop\Clinic\Application\obj\Debug\net10.0\ref\Application.dll
+C:\Users\Abdullo\Desktop\Clinic\Application\obj\Debug\net10.0\Application.sourcelink.json
