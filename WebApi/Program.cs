@@ -24,12 +24,21 @@ builder.Services.AddScoped<IRoomsService, RoomsService>();
 
 var app = builder.Build();
 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+                                                                                                                                                                                         
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+    .Enrich.FromLogContext()
+    .WriteTo.File("logs/Booknest.log", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
+builder.Host.UseSerilog();
 
 
 
